@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ComposantsLogiciels
 {
-    public partial class Form1 : Form
+    public partial class Fm_menu : Form
     {
-        public Form1()
+        public Fm_menu()
         {
             InitializeComponent();
         }

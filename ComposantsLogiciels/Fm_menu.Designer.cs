@@ -1,6 +1,6 @@
 ﻿namespace ComposantsLogiciels
 {
-    partial class Form1
+    partial class Fm_menu
     {
         /// <summary>
         /// Variable nécessaire au concepteur.

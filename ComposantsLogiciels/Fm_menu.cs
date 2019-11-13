@@ -12,9 +12,12 @@ namespace ComposantsLogiciels
 {
     public partial class Fm_menu : Form
     {
+        private Modele bd; //ajout de la variable bd avec le Type Modele
         public Fm_menu()
         {
             InitializeComponent();
+            bd = new Modele(); //instanciation du modele
+
         }
     }
 }

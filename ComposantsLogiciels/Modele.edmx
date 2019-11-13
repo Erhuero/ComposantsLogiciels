@@ -152,7 +152,7 @@
           <End Role="Diplome" Type="Self.Diplome" Multiplicity="*" />
           <End Role="Employe" Type="Self.Employe" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="gesperEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Modele" annotation:LazyLoadingEnabled="false">
           <EntitySet Name="Diplome" EntityType="Self.Diplome" />
           <EntitySet Name="Employe" EntityType="Self.Employe" />
           <EntitySet Name="Service" EntityType="Self.Service" />
@@ -170,7 +170,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="EntityFrameworkStoreContainer" CdmEntityContainer="gesperEntities1">
+        <EntityContainerMapping StorageEntityContainer="EntityFrameworkStoreContainer" CdmEntityContainer="Modele">
           <EntitySetMapping Name="Diplome">
             <EntityTypeMapping TypeName="EntityFramework.Diplome">
               <MappingFragment StoreEntitySet="Diplome">
@@ -229,7 +229,7 @@
         <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
-        <DesignerProperty Name="CodeGenerationStrategy" Value="Aucun" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Par défaut" />
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->
